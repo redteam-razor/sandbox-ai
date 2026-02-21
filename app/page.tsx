@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import DataFlow from "@/components/DataFlow";
 import WhatsInTheBox from "@/components/WhatsInTheBox";
 import Training from "@/components/Training";
 import Trust from "@/components/Trust";
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Pricing />
+        <DataFlow />
         <WhatsInTheBox />
         <Training />
         <Trust />
